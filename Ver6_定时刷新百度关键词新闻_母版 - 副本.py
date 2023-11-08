@@ -179,7 +179,7 @@ import collections
 
 #print NewsGrabber(query_word = '百慕大')
                                        
-#def NewsMonitor(query_word = '习近平'):
+#def NewsMonitor(query_word = '张四'):
 #    news_base_url = 'http://news.baidu.com/ns?tn=news'
 #    parameters = {'word': query_word}
 #    r = requests.get(news_base_url, params=parameters)
