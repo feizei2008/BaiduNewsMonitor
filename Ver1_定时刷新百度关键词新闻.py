@@ -39,7 +39,7 @@ StockList = ts.get_stock_basics().name
 #print [i.decode('utf-8') for i in StockName]
 print StockList
  
-query_word = '李克强'    
+query_word = '张三'    
 news_base_url = 'http://news.baidu.com/ns?tn=news'
 
 news_url = news_base_url + query_word
