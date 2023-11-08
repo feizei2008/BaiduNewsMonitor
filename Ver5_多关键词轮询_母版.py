@@ -89,8 +89,8 @@ Rows = open(File).read().splitlines()
 baseUrl = 'http://news.baidu.com/ns'
 query_words = Rows
 news_base_url = 'http://news.baidu.com/ns?tn=news'
-parameters = {'word': '习近平'}
-data = {'word': '习近平', 'pn=': str(8 - 1) + '0', 'cl': '2', 'ct': '1', 'tn': 'news', 'rn': '20',
+parameters = {'word': '张三'}
+data = {'word': '张三', 'pn=': str(8 - 1) + '0', 'cl': '2', 'ct': '1', 'tn': 'news', 'rn': '20',
                     'ie': 'utf-8', 'bt': 0, 'et': 0}
 data = urllib.urlencode(data)
 url = baseUrl + '?' + data
