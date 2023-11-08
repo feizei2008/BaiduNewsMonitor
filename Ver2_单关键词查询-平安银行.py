@@ -77,7 +77,7 @@ class Colored(object):
         
 color = Colored()         
         
-query_word = '李克强'    
+query_word = '平安银行'    
 news_base_url = 'http://news.baidu.com/ns?tn=news'
 
 news_url = news_base_url + query_word
