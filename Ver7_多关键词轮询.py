@@ -92,7 +92,7 @@ color = Colored()
 #print color.white('I am white!')  
 #print color.white_green('I am white green!')  
 
-leaders = ['习近平', '李克强']
+leaders = ['mike', 'tony']
 
 path = os.path.abspath(os.path.dirname(__file__))
 File = path+'\query-words.txt'
